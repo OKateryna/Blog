@@ -4,11 +4,6 @@ body {
     background: grey;
 }
 
-.header {
-    font-size: 40px;
-    text-align: center;
-}
-
 .footer {
     padding: 20px;
     text-align: center;
@@ -22,10 +17,13 @@ body {
     border: solid 1px red;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-area: header;
     background: white;
 }
-        
+    
+.section1{
+    display: grid;
+    grid-template-columns: auto;
+}
 .section{
     display: grid;
     grid-template-columns: auto auto;
@@ -71,9 +69,18 @@ body {
     margin-top: 20px;
 }
 .leftcolumn { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
     float: left;
     width: 75%;
 }
+.rightcolumn {
+    float: right;
+    width: 23%;
+    padding-left: 10px;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -86,5 +93,16 @@ body {
 form.example button:hover {
 background: #0b7dda;
 }
-        
+
+.post-image{
+    width:100%;
+    min-width:100px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
         
