@@ -1,6 +1,12 @@
+.tag-container{
+    text-align: center;
+}
+
 .tags {
     list-style: none;
     overflow: hidden;
+    align-content: center;
+    list-style-type: none;
 }
 
 .tags li {

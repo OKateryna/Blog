@@ -1,5 +1,5 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Cat's life</title>
@@ -14,9 +14,8 @@
   <body>
       <header>
           <div class="header-container">
-              <div class="header-row">
-                  <img src="logo.png" alt="logo" height="100">
-                  <nav role="navigation">
+              <div class="header-row nav-ham">
+                  <nav role="navigation" class="nav-ham">
                       <div id="menuToggle">
                           <input type="checkbox" />
                           <span></span>
@@ -30,11 +29,13 @@
                           </ul>
                       </div>
                   </nav>
+                  
               </div>
+              <img src="logo.png" alt="logo" class="logo">
               <div class="header-row">
                   <div class="social-row">
                       <i class="fa fa-search"></i>
-                      <div>
+                      <div class="social-buttons">
                           <a href="#" class="fa fa-special fa-youtube"></a>
                           <a href="#" class="fa fa-special fa-twitter"></a>
                           <a href="#" class="fa fa-special fa-google"></a>
@@ -191,7 +192,7 @@
                   <h3>About Me</h3>
                   <img class="my-avatar" src="my-avatar.JPG" alt="Burjui">
                   <h2>Burjui</h2>
-                  <p>I am the most handsome cat in the world!</p>
+                  <p>I am the most cute cat in the world!</p>
               </div>
               <div class="card">
                   <a href="#" class="fa fa-special fa-youtube"></a>
@@ -208,11 +209,13 @@
                   <input type="text" placeholder="Search.." name="search">
                   <button type="submit"><i class="fa fa-search"></i></button>
               </form>
-               <ul class="card tags">
-                   <li><a href="#" class="tag">love</a></li>
-                   <li><a href="#" class="tag">life</a></li>
-                   <li><a href="#" class="tag">friends</a>
-              </ul>
+              <div class="tag-container card">
+                  <ul class="tags">
+                      <li><a href="#" class="tag">love</a></li>
+                      <li><a href="#" class="tag">life</a></li>
+                      <li><a href="#" class="tag">friends</a>
+                </ul>
+              </div>
               <div class="card comment-container">
                   <img class="avatar" src="user3.JPG" alt="Burjui">
                   <div>
