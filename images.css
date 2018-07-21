@@ -1,0 +1,29 @@
+.post-image{
+    width:100%;
+    min-width:100px;
+}
+
+.my-avatar{
+    width:100%;
+    border-radius: 50%;
+}
+
+.avatar {
+    
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.card:hover .zoom {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}

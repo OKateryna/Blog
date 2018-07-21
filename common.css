@@ -4,14 +4,6 @@ body {
     background: #535b6b;
 }
 
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ffffff;
-    margin-top: 20px;
-    border: solid 1px #d80000;
-}
-
 .header-container{
     padding: 20px;
     border: solid 1px #d80000;
@@ -19,11 +11,13 @@ body {
     grid-template-columns: auto auto;
     background: white;
 }
+
 .header-row{
     display: grid;
     grid-template-rows: auto;
     position: relative;
-}    
+}   
+
 .social-row{
     display: grid;
     grid-template-rows: 40px 40px;
@@ -36,7 +30,6 @@ body {
     display: grid;
     grid-template-columns: auto auto;
 }
-        
 
 .card {
     border: solid 1px #d80000;
@@ -44,12 +37,14 @@ body {
     padding: 20px;
     margin-top: 20px;
 }
+
 .leftcolumn { 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 10px;
     float: left;
 }
+
 .rightcolumn {
     float: right;
     padding-left: 10px;
@@ -65,29 +60,6 @@ body {
     display: table;
     clear: both;
 }
-
-.rating .fa {
-    padding: 0px;
-}
-
-.post-image{
-    width:100%;
-    min-width:100px;
-}
-
-.my-avatar{
-    width:100%;
-    border-radius: 50%;
-}
-
-.avatar {
-    
-    align-self: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
 
 .input-text, .input-submit {
     width: 100%;
@@ -108,8 +80,6 @@ body {
     opacity: 0.8;
 }
 
-
-
 .nav-ul {
     list-style-type: none;
     margin: 0;
@@ -122,10 +92,6 @@ body {
 .nav-li {
     display: inline;
 }
-
-
-
-
 
 form.search input[type=text] {
     padding: 10px;
@@ -164,24 +130,20 @@ form.search::after {
     background: white;
 }
 
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+    border: solid 1px #d80000;
+}
+
 .dots{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin: 5px;
 }
-
-.zoom {
-    padding: 0px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1); 
-}
-
 
 @media screen and (max-width: 780px) {
     .leftcolumn, .rightcolumn {   

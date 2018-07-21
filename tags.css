@@ -1,8 +1,6 @@
 .tags {
     list-style: none;
-    margin: 3;
-    overflow: hidden; 
-    padding: 3;
+    overflow: hidden;
 }
 
 .tags li {
