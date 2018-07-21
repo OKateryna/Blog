@@ -1,10 +1,9 @@
-.fa {
+.fa-special {
     padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 2px;
 }
 .fa:hover {
     opacity: 0.7;
